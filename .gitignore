@@ -1,0 +1,5 @@
+debian/.debhelper/
+debian/xdi2-selfhosted/
+debian/xdi2-selfhosted.substvars
+debian/debhelper-build-stamp
+debian/files

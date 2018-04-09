@@ -1,0 +1,5 @@
+xdi2-selfhosted (0.8-SNAPSHOT-1) unstable; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Markus Sabadello <markus@danubetech.com>  Mon, 09 Apr 2018 14:24:44 +0200

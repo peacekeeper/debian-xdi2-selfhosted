@@ -1,0 +1,15 @@
+Source: xdi2-selfhosted
+Section: unknown
+Priority: optional
+Maintainer: Markus Sabadello <markus@danubetech.com>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.1.2
+Homepage: https://xdi2.org/
+
+Package: xdi2-selfhosted
+Architecture: all
+Depends: ${misc:Depends}
+ , tomcat8
+ , libsodium18
+Description: XDI2 self-hosted agent
+ XDI2 self-hosted agent
