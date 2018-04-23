@@ -2,6 +2,8 @@ ifeq ($(MVN),)
     MVN  := mvn
 endif
 
+MVNFLAGS  :=  -Dmaven.repo.local=/tmp/.m2/repository
+
 .PHONY: all package compile check test doc docs javadoc clean help
 
 all: 

@@ -15,7 +15,7 @@
 
 
 %:
-	dh $@ --with apache2
+	dh $@
 
 
 # dh_make generated override targets

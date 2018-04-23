@@ -3,6 +3,7 @@ Section: unknown
 Priority: optional
 Maintainer: Markus Sabadello <markus@danubetech.com>
 Build-Depends: debhelper (>= 10)
+ , maven
 Standards-Version: 4.1.2
 Homepage: https://xdi2.org/
 
