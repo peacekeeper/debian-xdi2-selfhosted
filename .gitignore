@@ -3,3 +3,10 @@ debian/xdi2-selfhosted/
 debian/xdi2-selfhosted.substvars
 debian/debhelper-build-stamp
 debian/files
+graph.xdi
+log4j.log
+.classpath
+.project
+/.settings/
+/bin/
+/target/
