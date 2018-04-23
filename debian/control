@@ -11,6 +11,6 @@ Package: xdi2-selfhosted
 Architecture: all
 Depends: ${misc:Depends}
  , tomcat8
- , libsodium18
+ , libsodium23
 Description: XDI2 self-hosted agent
  XDI2 self-hosted agent
