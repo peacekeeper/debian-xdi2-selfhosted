@@ -9,4 +9,3 @@ log4j.log
 .project
 /.settings/
 /bin/
-/target/
