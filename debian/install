@@ -1,3 +1,5 @@
-xdi2-selfhosted.properties /etc/xdi2/xdi2-selfhosted.properties
-xdi2-selfhosted-0.8-SNAPSHOT.war /var/lib/tomcat8/webapps
+etc/xdi2/xdi2-selfhosted.properties /etc/xdi2/xdi2-selfhosted.properties
+src/main/java/target/xdi2-selfhosted-0.8-SNAPSHOT.war /var/lib/tomcat8/webapps
+
+debian/config/apache/xdi2-selfhosted.conf  etc/apache2/conf-available
 
