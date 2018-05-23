@@ -57,7 +57,7 @@
 			<plugin>
 				<groupId>org.eclipse.jetty</groupId>
 				<artifactId>jetty-maven-plugin</artifactId>
-				<version>9.4.0.M1</version>
+				<version>9.3.0.M1</version>
 				<configuration>
 					<jettyConfig>
 						${basedir}/src/test/resources/jetty.xml
@@ -65,7 +65,7 @@
 					<jettyEnvXml>
 						${basedir}/src/test/resources/jetty-env.xml
 					</jettyEnvXml>
-					<webApp><contextPath>/xdi</contextPath></webApp>
+					<contextPath>/</contextPath>
 					<useTestClasspath>true</useTestClasspath>
 					<systemProperties>
 						<systemProperty>
@@ -86,25 +86,25 @@
 					<dependency>
 						<groupId>org.slf4j</groupId>
 						<artifactId>slf4j-api</artifactId>
-						<version>1.7.5</version>
+						<version>1.7.1</version>
 						<scope>compile</scope>
 					</dependency>
 					<dependency>
 						<groupId>org.slf4j</groupId>
 						<artifactId>jcl-over-slf4j</artifactId>
-						<version>1.7.5</version>
+						<version>1.7.1</version>
 						<scope>compile</scope>
 					</dependency>
 					<dependency>
 						<groupId>org.slf4j</groupId>
 						<artifactId>slf4j-log4j12</artifactId>
-						<version>1.7.5</version>
+						<version>1.7.1</version>
 						<scope>compile</scope>
 					</dependency>
 					<dependency>
 						<groupId>org.eclipse.jetty.websocket</groupId>
 						<artifactId>websocket-server</artifactId>
-						<version>9.4.0.M1</version>
+						<version>9.3.0.M1</version>
 						<scope>compile</scope>
 					</dependency>
 				</dependencies>
@@ -118,18 +118,6 @@
 		<dependency>
 			<groupId>xdi2</groupId>
 			<artifactId>xdi2-server</artifactId>
-			<version>0.8-SNAPSHOT</version>
-			<scope>compile</scope>
-		</dependency>
-		<dependency>
-			<groupId>xdi2</groupId>
-			<artifactId>xdi2-connector-meeco</artifactId>
-			<version>0.8-SNAPSHOT</version>
-			<scope>compile</scope>
-		</dependency>
-		<dependency>
-			<groupId>xdi2</groupId>
-			<artifactId>xdi2-connector-cozy</artifactId>
 			<version>0.8-SNAPSHOT</version>
 			<scope>compile</scope>
 		</dependency>
