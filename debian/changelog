@@ -1,8 +1,9 @@
 xdi2-selfhosted (0.8-SNAPSHOT-2) UNRELEASED; urgency=medium
 
   * Fix debian control and changelog files.
+  * Fix install file.
 
- -- Markus Sabadello <markus@danubetech.com>  Wed, 23 May 2018 13:26:25 +0200
+ -- Markus Sabadello <markus@danubetech.com>  Wed, 23 May 2018 15:16:03 +0200
 
 xdi2-selfhosted (0.8-SNAPSHOT-1) unstable; urgency=medium
 
