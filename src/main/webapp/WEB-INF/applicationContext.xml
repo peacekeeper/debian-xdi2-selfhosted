@@ -76,10 +76,7 @@
 
 	<!-- MESSAGING TARGET at /graph -->
 
-	<bean id="graphFactory" class="xdi2.core.impl.wrapped.file.FileWrapperGraphFactory">
-		<property name="path" value="graph.xdi" />
-		<property name="mimeType" value="text/xdi;ordered=1" />
-	</bean>
+	<bean id="graphFactory" class="xdi2.core.impl.memory.MemoryGraphFactory" />
 
 	<bean id="graph" factory-bean="graphFactory" factory-method="openGraph" />
 
