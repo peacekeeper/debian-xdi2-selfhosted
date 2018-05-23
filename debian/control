@@ -1,5 +1,5 @@
 Source: xdi2-selfhosted
-Section: unknown
+Section: net
 Priority: optional
 Maintainer: Markus Sabadello <markus@danubetech.com>
 Build-Depends: debhelper (>= 10)
@@ -13,4 +13,4 @@ Depends: ${misc:Depends}
  , tomcat8
  , libsodium23
 Description: XDI2 self-hosted agent
- XDI2 self-hosted agent
+ Self-hosted DID/XDI agent.
